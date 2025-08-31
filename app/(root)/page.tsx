@@ -30,7 +30,7 @@ async function Home() {
             Practice real interview questions & get instant feedback
           </p>
 
-          <Button asChild className="w-[200px] btn max-sm:w-full bg-gray-900 text-white">
+          <Button asChild className="w-[200px] btn max-sm:w-full bg-gray-900 text-white hover:bg-gray-600">
             <Link href="/interview">Generate Interview 😎</Link>   
           </Button>
         </div>
