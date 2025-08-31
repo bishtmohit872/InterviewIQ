@@ -37,7 +37,7 @@ const Page = () => {
     // await new Promise((resolve)=>setTimeout(resolve,7000));
     try{
 
-      const response = await fetch('http://localhost:3000/api/vapi/generate',{
+      const response = await fetch('https://interview-iq-seven.vercel.app/api/vapi/generate',{
         method:"POST",
         headers:{
           'content-Type':'application/json',
